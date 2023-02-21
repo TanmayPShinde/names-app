@@ -1,0 +1,23 @@
+{
+  "name": "names-app",
+  "version": "1.0.0",
+  "description": "This is a backend app having end-points to store and reterive names",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "jwt-simple": "^0.5.6",
+    "kerberos": "^2.0.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.9.0",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "^1.10.0"
+  }
+}
