@@ -31,6 +31,9 @@ function ensureAuthenticated(req, res, next) {
 
 // 3. Routes
 module.exports = function (app) {
+  app.get("/", (req, res) => {
+    res.send("Welcome Belote!");
+  });
   // 4. Authentication Routes
   app.post("/auth/login", Auth.login);
   app.post("/auth/signup", Auth.signup);
